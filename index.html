@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threadify - Customize Your Clothes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Threadify</h1>
+        <p>Customize Your Clothes with Unique Designs</p>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to Threadify</h2>
+        <p>Ever found a piece of clothing you love but wished it had a different design? We make that possible! 
+        Choose your clothing type and add your own prints.</p>
+    </section>
+
+    <section class="customization">
+        <h2>Customize Your Clothing</h2>
+        <label for="clothing">Choose Clothing Type:</label>
+        <select id="clothing">
+            <option value="saree">Saree</option>
+            <option value="pants">Pants</option>
+            <option value="trousers">Trousers</option>
+        </select>
+
+        <label for="design">Upload Your Design:</label>
+        <input type="file" id="design">
+        
+        <button onclick="customizeClothing()">Preview</button>
+        <p id="previewText"></p>
+    </section>
+
+    <section class="pricing">
+        <h2>Pricing</h2>
+        <p>Each design and clothing type has different pricing based on customization.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Home Delivery Available</h2>
+        <p>Order online and get your customized clothing delivered to your doorstep!</p>
+    </section>
+
+    <footer>
+        <p>Launching in 3-4 years. Stay tuned!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
